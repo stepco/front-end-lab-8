@@ -73,22 +73,53 @@ Task #1
     }
     #home{
         height: 200px;
+        margin: 0 0 -20px 0;
     }
     .tm-sidebar{
         display: none;
     }
 
     .tm-main-content {
-    margin-left: 0;
-    padding-left: 25px;
+    
+    margin: 0 auto;
     }
     .flex-2-col{
        
 flex-direction: column;
             }
      .tm-section-description{
-         width: 500px;
+         width: 550px;
     }       
     div.pad h2 {
     color: rgb(96, 36, 255);
+    }
+
+
+    /* 
+
+Task #2
+
+*/
+#about .gallery-container{
+    margin-top: -1px;
+}
+
+   /* 
+
+Task #3 Change color of first letter in each paragraphs to 76cdd7, 
+ Font size to 30px
+
+*/
+    p::first-letter{
+        color: #76cdd7;
+        font-size: 30px;
+    }
+        /* 
+        Task 4 Add box shadow to sidebar and each content block
+        */
+
+    .tm-sidebar, .tm-content-box, .blocks{
+-webkit-box-shadow: -3px -6px 42px -5px rgba(16,103,179,0.77);
+-moz-box-shadow: -3px -6px 42px -5px rgba(16,103,179,0.77);
+box-shadow: -3px -6px 42px -5px rgba(16,103,179,0.77);
     }
