@@ -1,0 +1,98 @@
+body {
+  background: rgba(198, 238, 252, 0.53);
+  color: white; }
+
+#content {
+  margin-left: 15%;
+  margin-right: 15%;
+  max-width: 100%;
+  background-color: #3b3b3b;
+  padding-left: 2em;
+  padding-right: 2em; }
+  #content h1 {
+    text-align: center;
+    color: #fccd10;
+    text-transform: uppercase; }
+  #content h1:nth-child(1) {
+    padding-top: 2em;
+    margin-bottom: 2em; }
+  #content h2 {
+    margin-top: 1.5em;
+    color: #fccd10; }
+  #content .brief {
+    background-color: #fff178;
+    float: left;
+    color: black;
+    width: 925px;
+    height: 25px;
+    margin-right: 0px;
+    margin-bottom: 33px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 15px; }
+  #content .img-left {
+    padding: 2px;
+    border: 2px solid #fccd10;
+    float: left;
+    margin-right: 20px; }
+  #content .img-right {
+    padding: 2px;
+    border: 2px solid #fccd10;
+    float: right;
+    margin-left: 20px; }
+  #content a {
+    color: #f5c70f; }
+  #content table {
+    padding-left: 10px;
+    border-collapse: collapse;
+    margin-bottom: 50px; }
+  #content table tr:nth-child(1) {
+    color: black;
+    height: 35px;
+    text-transform: uppercase;
+    text-align: left;
+    background-color: #94a34e; }
+  #content th, #content td {
+    padding-left: 20px;
+    font-weight: normal; }
+  #content th:not(:last-child) {
+    border-right: 1px solid white; }
+  #content tr {
+    background-color: #677d01;
+    height: 41px;
+    border-bottom: 1px solid #94a34e; }
+  #content table caption {
+    color: black;
+    text-align: right; }
+  #content form label {
+    color: #fccd10; }
+  #content .nameBlock {
+    text-align: left;
+    display: inline; }
+  #content .nameBlock input {
+    width: 470px;
+    height: 20px; }
+  #content .email, #content .mark {
+    width: 956px;
+    height: 20px; }
+  #content .responsive {
+    width: 956px;
+    height: 160px;
+    max-width: 960px;
+    max-height: 200px; }
+  #content .fname {
+    float: left; }
+  #content .sname {
+    float: right; }
+  #content button {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    width: 240px;
+    height: 45px;
+    background-color: #3b3b3b;
+    color: #f5c70f;
+    font-size: 20px;
+    border: 1px solid #f5c70f; }
+
+/*# sourceMappingURL=style2.css.map */

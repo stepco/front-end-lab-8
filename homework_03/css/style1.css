@@ -1,0 +1,98 @@
+body {
+  background: #dcbb9a;
+  color: #000000; }
+
+#content {
+  margin-left: 15%;
+  margin-right: 15%;
+  max-width: 100%;
+  background-color: #ffffff;
+  padding-left: 2em;
+  padding-right: 2em; }
+  #content h1 {
+    text-align: center;
+    color: #893c00;
+    text-transform: capitalize; }
+  #content h1:nth-child(1) {
+    padding-top: 2em;
+    margin-bottom: 2em; }
+  #content h2 {
+    margin-top: 1.5em;
+    color: #893c00; }
+  #content .brief {
+    background-color: #fadcba;
+    float: left;
+    color: black;
+    width: 40% px;
+    height: 75px;
+    margin-right: 20px;
+    margin-bottom: 0;
+    padding-bottom: 0px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 15px; }
+  #content .img-left {
+    padding: 2px;
+    border: 2px solid #893c00;
+    float: left;
+    margin-right: 20px; }
+  #content .img-right {
+    padding: 2px;
+    border: 2px solid #893c00;
+    float: right;
+    margin-left: 20px; }
+  #content a {
+    color: #3d70a1; }
+  #content table {
+    padding-left: 10px;
+    border-collapse: collapse;
+    margin-bottom: 50px; }
+  #content table tr:nth-child(1) {
+    color: black;
+    height: 35px;
+    text-transform: uppercase;
+    text-align: left;
+    background-color: #e0e0e0; }
+  #content th, #content td {
+    padding-left: 20px;
+    font-weight: normal; }
+  #content th:not(:last-child) {
+    border-right: 1px solid white; }
+  #content tr {
+    background-color: white;
+    height: 41px;
+    border-bottom: 1px solid #e0e0e0; }
+  #content table caption {
+    color: black;
+    text-align: right; }
+  #content form label {
+    color: #808080; }
+  #content .nameBlock {
+    text-align: left;
+    display: inline; }
+  #content .nameBlock input {
+    width: 470px;
+    height: 20px; }
+  #content .email, #content .mark {
+    width: 956px;
+    height: 20px; }
+  #content .responsive {
+    width: 956px;
+    height: 160px;
+    max-width: 960px;
+    max-height: 200px; }
+  #content .fname {
+    float: left; }
+  #content .sname {
+    float: right; }
+  #content button {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    width: 240px;
+    height: 45px;
+    background-color: #ffffff;
+    color: #3d70a1;
+    font-size: 20px;
+    border: 1px solid #3d70a1; }
+
+/*# sourceMappingURL=style1.css.map */

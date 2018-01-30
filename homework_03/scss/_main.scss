@@ -1,0 +1,128 @@
+body{
+    background: $background-color;
+    color: $text-color;
+}
+
+#content{
+    margin-left: 15%;
+    margin-right: 15%;
+    max-width: 100%;
+    background-color: $body-background-color;
+    padding-left: 2em;
+    padding-right: 2em;
+    h1{
+        text-align: center;
+        color: $heading-color;
+        text-transform: $h1;
+    }
+    h1:nth-child(1){
+        padding-top: 2em;
+        margin-bottom: 2em; 
+    }
+    h2{
+        margin-top: 1.5em;
+        color: $heading-color;
+    }
+    .brief{
+        background-color: $brief-background-color;
+        float: left;
+        color: black;
+        width: $bried-width;
+        height: $brief-height;
+
+        margin-right: $brief-margin-right;
+        margin-bottom: $brief-margin-bottom;
+        
+        padding-bottom: $brief-padding-bottom;
+        padding-left: 20px;
+        padding-top: 20px; 
+        padding-right: 15px;
+    }
+    .img-left {
+        padding:2px;
+        border:2px solid $heading-color;
+        float: left;
+        margin-right: 20px;
+     }
+     .img-right{
+        padding:2px;
+        border:2px solid $heading-color;
+        float: right;
+        margin-left: 20px;
+     }
+     a{
+         color: $reflink-color;
+     }    
+     table{
+        padding-left: 10px;
+        border-collapse: collapse;
+        margin-bottom: 50px;
+     }
+      
+    
+     table tr:nth-child(1){
+        color: black;
+        height: 35px;
+        text-transform: uppercase;
+        text-align: left;
+        
+        background-color: $table-header-color;
+     }
+     th,td{
+         padding-left: 20px;
+         font-weight:normal; 
+     }
+     th:not(:last-child){
+         border-right: 1px solid white;
+     }
+     tr{
+         background-color: $table-background-color;
+         height: 41px;
+         border-bottom: 1px solid  $table-header-color;
+     }
+     table caption{
+         color: black;
+         text-align: right;
+     }
+     
+     form label{
+        color: $form-text-color;
+     }
+     .nameBlock{
+        text-align: left;
+        display: inline;
+     }
+     .nameBlock input{
+        width: 470px;
+        height: 20px;
+     }
+     
+     .email,.mark,{
+            width: 956px;
+            height: 20px;
+     }
+     .responsive{
+        width: 956px;
+        height: 160px;
+        max-width: 960px;
+        max-height: 200px;
+     }
+     
+     .fname{
+         float: left;
+     }
+     .sname{
+         float: right;
+     }
+     button{
+         margin-top: 10px;
+         margin-bottom: 30px;
+         width: 240px;
+         height: 45px;
+         background-color: $body-background-color;
+         color: $reflink-color;
+         font-size: 20px;
+         border: 1px solid $reflink-color;
+     }
+     
+}
