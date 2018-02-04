@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  body{
+    background: #fff;
+    font-family: 'Open Sans', sans-serif;
+    max-width: 1600px;
+    margin: 0 auto;
+  }
+  header{
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+    background: url(../img/apples.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;;
+    color: #fff;
+    height: 100%;
+  }
+  header nav p a, header ul li a{
+    color: #fff;
+    text-decoration: none;
+  }
+  header nav p a:hover, header ul li a:hover{
+    padding-bottom: 10px;
+    border-bottom: 2px solid #9E9E9E;
+  }
+  .active{
+    padding-bottom: 10px;
+    border-bottom: 2px solid #9E9E9E;  
+  }
+  nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+  }
+  
+  ul li{
+     display: inline-flex ;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-left: 35px;
+  }
+  .batton{
+    margin: 3% auto 0;
+  }
+  input {
+    color: #fff;
+    width: 180px;
+    height: 40px;
+    margin-bottom: 5%;
+    font-size: 0.8em;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+    border: 1px solid #fff;
+  }
+  .logo{
+    display: flex;
+    flex-direction: column;
+    margin: 15% auto 0;
+  }
+  .logo h1{
+      margin: 0 auto;
+      font-size: 2em;
+      text-transform: uppercase;
+      letter-spacing: 0.2em;
+  }
+  .small{
+      font-size: 0.3em;
+      vertical-align: text-top;
+  }
+  .logo p{
+    margin: 0 auto;
+    text-transform: capitalize;
+    font-size: 0.5em;
+  }
+
+  aside{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around; 
+  }
+  aside p{
+      width: 50%;
+      padding: 5%;
+  }
+  .smallText{
+      font-size: 0.8em;
+  }
+  article{
+    box-sizing:border-box;
+    width: 1600px;
+    background: #f3f3f3;
+    padding: 20px;
+  }
+  article p{
+      margin:  auto;
+  }
+
+  .imeges_1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding: 5% 5% 0 5%;
+  }
+  .imeges_2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding: 0 5% 5% 5%;
+  }
+  img {
+    width: 100%;
+    height: auto;
+    padding: 5px;
+}
+.subscribe{
+    box-sizing:border-box;
+    width: 1165px;
+    background: #fff;
+    margin: 0 auto;
+    height: 200px;
+    padding: 70px 0 40px;
+    
+  }
+  .subscribe>div{
+    width: 100%;
+  }
+  .subscribe p, form{
+    display: inline-block;
+  }
+  .subscribe p{
+    margin: 0 60px 0 100px;
+  }
+  .mail{
+    border: 3px solid #000;
+    height: 40px;
+    width: 395px;
+    background: #F3F3F3;
+    padding: 0 0 0 30px;
+  }
+  .button{
+    background: #000;
+    border: 1px solid #000;
+    color: #fff;
+    margin-left:-4px;
+    height: 46px;
+    width: 175px;
+  }
